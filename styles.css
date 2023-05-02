@@ -158,3 +158,21 @@ a.middle-indicator-text{
   color: white;
   border: none;
 }
+/* This is an inline comment in CSS
+#steinbauer1new p:hover {
+  color: #fff;
+  text-shadow: 1px 1px #C8102E;
+}
+*/
+#steinbauer1new p {
+  color: #C8102E;
+  text-shadow: 2px 2px #fff;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#steinbauer1new p:hover {
+  color: #fff !important;
+  text-shadow: 2px 2px #C8102E !important;
+}
